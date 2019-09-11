@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import defaultLanguage from "../assets/i18n/en.json";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular8';
+
+  constructor(
+    private translate: TranslateService
+  ) {
+    this.translate.setTranslation('en', defaultLanguage);
+    this.translate.setDefaultLang('en');
+  }
 }
