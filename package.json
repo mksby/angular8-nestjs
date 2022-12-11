@@ -31,7 +31,7 @@
     "@nestjs/jwt": "^6.1.1",
     "@nestjs/ng-universal": "^2.0.1",
     "@nestjs/passport": "^6.1.0",
-    "@nestjs/platform-express": "^6.0.0",
+    "@nestjs/platform-express": "^9.2.1",
     "@nestjs/swagger": "^3.1.0",
     "@nestjs/testing": "^6.6.7",
     "@nguniversal/express-engine": "^8.0.0",
